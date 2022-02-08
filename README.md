@@ -1,5 +1,18 @@
 # AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar
-![](demo.gif)
+![demo](demo.gif)
+
+```shell
+@article{cai2021autoplace,
+  title={AutoPlace: Robust Place Recognition with Low-cost Single-chip Automotive Radar},
+  author={Cai, Kaiwen and Wang, Bing and Lu, Chris Xiaoxuan},
+  booktitle={2022 IEEE International Conference on Robotics and Automation},
+  pages={3475--3481},
+  year={2022},
+  organization={IEEE}  
+}
+```
+[Youtube Video 📺](123)
+
 ## 1. Dataset preprocessing 📥
 
 You may need to download nuScenes dataset (radar) from [nutonomy/nuscenes-devkit](https://github.com/nutonomy/nuscenes-devkit).
