@@ -1,0 +1,14 @@
+{
+"kidnapped": "/LOCAL/ramdrop/github/autoplace/logs_kid/7n5s_xy11_kid__seq1__0820100948003744",
+"netvlad": "/LOCAL/ramdrop/github/autoplace/logs_netvlad/7n5s_xy11_netvlad__seq1__Aug15--21-21-06",
+"netvlad_lstm": "/LOCAL/ramdrop/github/autoplace/logs_netvlad/7n5s_xy11_netvlad__seq3__Aug16--15-15-31",
+
+"s1_seqnet": "/LOCAL/ramdrop/github/autoplace/logs_seqnet/7n5s_xy11_seqnet__seq1__0817191722409675",
+"s3_seqnet": "/LOCAL/ramdrop/github/autoplace/logs_seqnet/7n5s_xy11_seqnet__seq3__0817191646077964",
+
+"se": "/LOCAL/ramdrop/github/autoplace/logs_autoplace/7n5s_xy11_autoplace__seq1__Aug18--10-36-21",
+"se_dpr": "/LOCAL/ramdrop/github/autoplace/logs_autoplace/7n5s_xy11_removal_autoplace__seq1__Aug18--10-36-57",
+"se_te": "/LOCAL/ramdrop/github/autoplace/logs_autoplace/7n5s_xy11_autoplace__seq3__Aug17--09-42-06",
+"se_te_dpr": "/LOCAL/ramdrop/github/autoplace/logs_autoplace/7n5s_xy11_removal_autoplace__seq3__Aug17--14-31-57"
+
+}
