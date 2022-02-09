@@ -1,17 +1,19 @@
-# AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar
+# [ICRA2022] AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar
 ![demo](demo.gif)
 
 ```shell
 @article{cai2021autoplace,
   title={AutoPlace: Robust Place Recognition with Low-cost Single-chip Automotive Radar},
   author={Cai, Kaiwen and Wang, Bing and Lu, Chris Xiaoxuan},
-  booktitle={2022 IEEE International Conference on Robotics and Automation},
+  booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
   pages={3475--3481},
   year={2022},
   organization={IEEE}  
 }
 ```
-[Youtube Video 📺](123)
+[📺 Youtube Video](https://www.youtube.com/watch?v=d_-ZYJhgGIk)
+
+[📖 Project Page](https://ramdrop.github.io/assets/pages/AutoPlace/AutoPlace_customized.html)
 
 ## 1. Dataset preprocessing 📥
 
