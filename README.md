@@ -13,7 +13,7 @@
 ```
 [📺 Youtube Video](https://www.youtube.com/watch?v=d_-ZYJhgGIk)
 
-[📖 Project Page](https://ramdrop.github.io/assets/pages/AutoPlace/AutoPlace_customized.html)
+[📖 Project Page](https://www.csc.liv.ac.uk/~ramdrop/autoplace.html)
 
 ## 1. Dataset preprocessing 📥
 
@@ -96,7 +96,7 @@ to save you time on downloading/preprocessing the nuScenes dataset, you may as w
     python ablation_score.py 
     ```
 
-## 3. [SOTA methods](https://github.com/ramdrop/AutoPlace_private/blob/main/SOTA.md) ⚔
+## 3. [SOTA methods](https://github.com/ramdrop/AutoPlace/blob/main/SOTA.md) ⚔
 
 
 
