@@ -1,4 +1,8 @@
 # [ICRA2022] AutoPlace: Robust Place Recognition with Single-Chip Automotive Radar
+[![arxiv](https://img.shields.io/badge/arXiv-2109.08652-%23B31C1B?style=flat)](https://arxiv.org/abs/2109.08652)
+[![GitHub](https://img.shields.io/website?label=Project%20Page&up_message=Up&url=https%3A%2F%2Fwww.csc.liv.ac.uk%2F~ramdrop%2Fautoplace.html)](https://www.csc.liv.ac.uk/~ramdrop/autoplace.html)
+[![YouTube](https://img.shields.io/youtube/views/d_-ZYJhgGIk?label=YouTube&style=flat)](https://www.youtube.com/watch?v=d_-ZYJhgGIk&ab_channel=KaiwenCai)
+
 ![demo](demo.gif)
 
 ```shell
@@ -11,9 +15,6 @@
   organization={IEEE}  
 }
 ```
-[📺 Youtube Video](https://www.youtube.com/watch?v=d_-ZYJhgGIk)
-
-[📖 Project Page](https://www.csc.liv.ac.uk/~ramdrop/autoplace.html)
 
 ## 1. Dataset preprocessing 📥
 
