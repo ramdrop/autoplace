@@ -26,14 +26,8 @@ import socket
 
 class Generic(object):
     def __init__(self, split):
-        if socket.gethostname() == 'acps-gpu1':
-            DATA_DIR = '/LOCAL/ramdrop/dataset/nuscenes'
-        elif socket.gethostname() == 'acps-gpu2':
-            DATA_DIR = '/LOCAL/ramdrop/dataset/nuscenes'
-        elif socket.gethostname() == 'ubuntu-g':
-            DATA_DIR = '/home/kaiwen/Documents/dataset/nuscenes'
-
-        self.dataset = DATA_DIR
+        self.dataset = ''   # remember to define your official nuscenes dataset directory here
+        assert self.dataset != '', 'the nuscenes dataset directory definition is missing.'
         print(split, 'loading...')
         self.nusc = NuScenes(version=split, dataroot=self.dataset, verbose=False)
         print('done!')
