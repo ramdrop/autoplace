@@ -24,7 +24,7 @@
 * nuscenes-devkit 1.1.1
 
 ```
-pip install upgrade
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
