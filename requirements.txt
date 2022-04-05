@@ -9,4 +9,4 @@ plotly
 pandas
 matplotlib
 torchsummary
-nuscenes-devkit
+nuscenes-devkit==1.1.1
