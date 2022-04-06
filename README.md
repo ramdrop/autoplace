@@ -28,6 +28,8 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+Go to the nuscenes-devkit package directory (depends on which python you are using), and override the function `from_file_multisweep(...)` in `site-packages/nuscenes/utils/data_classes.py ` with the function provided in `autoplace/nuscenes-devkit_override.py`.
+
 ## 1. Dataset preprocessing 📥
 
 You may need to download nuScenes dataset (radar) from [nutonomy/nuscenes-devkit](https://github.com/nutonomy/nuscenes-devkit).

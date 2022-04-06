@@ -17,7 +17,7 @@ from preprocess.utils.pcl_operation import normalize_feature, rescale
 # %%
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("--struct_dir", type=str, default='/LOCAL/ramdrop/dataset/mmrec_dataset/7n5s_xy11')
+parser.add_argument("--struct_dir", type=str, default='./../dataset/7n5s_xy11')
 parser.add_argument("--split", type=str, default='trainval', choices=['trainval', 'test', 'mini'])
 parser.add_argument("--img", type=int, default=1)
 parser.add_argument("--pcl", type=int, default=1)

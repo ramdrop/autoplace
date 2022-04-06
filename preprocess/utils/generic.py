@@ -26,7 +26,7 @@ import socket
 
 class Generic(object):
     def __init__(self, split):
-        self.dataset = ''   # remember to define your official nuscenes dataset directory here
+        self.dataset = '/LOCAL2/ramdrop/dataset/nuscenes'   # remember to define your official nuscenes dataset directory here
         assert self.dataset != '', 'the nuscenes dataset directory definition is missing.'
         print(split, 'loading...')
         self.nusc = NuScenes(version=split, dataroot=self.dataset, verbose=False)
@@ -123,6 +123,7 @@ class Generic(object):
 
         return pcl_all_
 
+    # deprecated
     def get_pcl_pano_filtered_mask(self, info, chan='RADAR_FRONT', ref_chan='RADAR_FRONT', nsweeps=5):
         ref_chan = 'RADAR_FRONT'
         chan = 'RADAR_FRONT'
